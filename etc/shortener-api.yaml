@@ -1,0 +1,17 @@
+Name: shortener-api
+Host: 0.0.0.0
+Port: 8888
+
+ShortUrlDB:
+  DSN: root:mysql@tcp(127.0.0.1:3307)/shortener?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
+
+SequenceDB:
+  DSN: root:mysql@tcp(127.0.0.1:3307)/shortener?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
+
+CacheRedis:
+  - Host: 127.0.0.1:6379
+
+ShortDomain: t.cn
+
+
+Base64String: BCfghijklmn123de789AMNO456VRDEFGHIJopWXYZabcPQqrstuvwxyz0KLSTU
